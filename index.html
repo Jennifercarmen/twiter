@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Twitter</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/icons/font-awesome/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="shortcut icon" href="assets/img/icono.ico">
+
+</head>
+
+<body>
+  <!-- Cabecera fija -->
+  <header>
+    <div class="container">
+      <div class="subcontainer left">
+        <ul class="menu-twiter">
+          <li class="home left">
+            <a href="">
+              <span class="fa fa-home blue"></span>
+              <span class="small blue">Inicio</span>
+            </a>
+          </li>
+          <li class="notifications left">
+            <a>
+              <span class="fa fa-bell-o"></span>
+              <span class="small">Notificaciones</span>
+            </a>
+          </li>
+          <li class="messages left">
+            <a>
+              <span class="fa fa-envelope-o"></span>
+              <span class="small">Mensajes</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="icon-logo">
+        <span class="fa fa-twitter blue"></span>
+      </div>
+      <div class="subcontainer right">
+        <div class="search right">
+          <input class="buscar" type="text" placeholder="Buscar en Twitter">
+          <span class="fa fa-search"></span>
+        </div>
+        <div class="image-header cpointer">
+          <img src="assets/img/user.jpg" alt="profile picture"> </div>
+        </li>
+        <div class="twittear right cpointer">
+          <span class="flaticon-feather-in-a-square"></span>
+          <span class="small">Twittear</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Sección Twitter -->
+  <section>
+
+    <div class="dashboard">
+      <div class="tweet-je">
+        <div class="ProfileCard"></div>
+        <div class="ProfileCard-content">
+          <img src="assets/img/user.jpg" alt="">
+          <div class="ProfileCard-userFields">
+            <div class="profile-name">
+              Jennifer Milagros C...
+            </div>
+            <span class="user_name">
+              @ Jennifer_Lab
+            </span>
+          </div>
+          <div class="tweets">
+            <div class="labelTweets">Tweets</div>
+            <div class="tweetsValue blue">90</div>
+          </div>
+          <div class="siguiendo">
+            <div class="labelTweets">Siguiendo</div>
+            <div class="tweetsValue blue">100</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="trends">
+        <span class="profile-name">Tendencias para ti </span>
+        <span class="blue small"> &#8231; Cambiar</span>
+        <div class="tend">
+          <span class="blue bold">#HelloCientifica</span>
+          <div class="tms">
+            2.230 Tweets
+          </div>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#LoÚltimo</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#LaRepublica</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#PPk</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#Mundial</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#PeruMundial</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#RDSMiVotoEsPara</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#NED2017</span>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#SUMMITPE17</span>
+          <div class="tms">
+            1.240 Tweets
+          </div>
+        </div>
+        <div class="tend">
+          <span class="blue bold">#CBTFirmaDeAutógrafos</span>
+          <div class="tms">
+            4.312 Tweets
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-main">
+      <div class="box_post">
+        <div>
+          <img class="left" src="assets/img/user.jpg" alt="profile picture">
+          <textarea id="box_text" cols="67" rows="2" placeholder="¿Que esta pasando?"></textarea>
+        </div>
+        <div id="btn_tweet">
+        </div>
+        <p class="count" id="contadorNumeros">140</p>
+        <i class="fa fa-file-image-o blue" aria-hidden="true"></i>
+      </div>
+      <div class="new-tweets blue">
+        Ver Tweets nuevos
+      </div>
+      <div class="post" id="pos"></div>
+    </div>
+
+    <div class="dashboard">
+
+      <div class="trends">
+
+        <div class="uno">
+          <span class="profile-name">A quién seguir </span>
+          <span class="blue small cpointer"> &#8231; Actualizar</span>
+          <span class="blue small cpointer"> &#8231; Ver todos</span>
+        </div>
+
+        <div class="box_follow">
+          <img class="imgfollow" src="assets/img/img1.jpg" alt="igp profile picture">
+          <div class="content">
+            <strong class="fullname">claudia cisneros</strong>
+            <span class="user_name">@claudia...</span>
+            <div class="follow radius small">
+              <span class="flaticon-add-user blue"></span>
+              <button class="name-friend">Seguir</button>
+            </div>
+          </div>
+          <span class="fa fa-times close"></span>
+        </div>
+
+        <div class="box_follow">
+          <img class="imgfollow" src="assets/img/img2.jpg" alt="igp profile picture">
+          <div class="content">
+            <strong class="fullname">Phillip Butters</strong>
+            <span class="user_name">@Phil Bul...</span>
+            <div class="follow radius small">
+              <span class="flaticon-add-user blue"></span>
+              <button class="name-friend">Seguir</button>
+            </div>
+          </div>
+          <span class="fa fa-times close"></span>
+        </div>
+
+        <div class="box_follow">
+          <img class="imgfollow" src="assets/img/img3.jpg" alt="igp profile picture">
+          <div class="content">
+            <strong class="fullname">Nadine Heredia</strong>
+            <span class="user_name">@NadineH...</span>
+            <div class="follow radius small">
+              <span class="flaticon-add-user blue"></span>
+              <button class="name-friend">Seguir</button>
+            </div>
+          </div>
+          <span class="fa fa-times close"></span>
+        </div>
+
+      </div>
+
+      <div class="trends">
+        <div class="launch-service">
+          <div class="container-gmail">
+            <img src="assets/img/gmail.png" alt="">
+          </div>
+          <div>
+            <span class="bold">Encuentra a personas que conoces</span>
+            <div class="tms">
+              Importa tus contactos de Gmail </div>
+          </div>
+        </div>
+      </div>
+      <div class="trends cpointer">
+        <p class="blue">
+          Conecta otras libretas de direcciones
+        </p>
+      </div>
+
+      <div class="footer">
+        <div class="trends box">
+          <ul>
+            <li class="Footer-item Footer-copyright copyright">© 2017 Twitter</li>
+            <li class="Footer-item">Sobre nosotros</li>
+            <li class="Footer-item">Centro de Ayuda</li>
+            <li class="Footer-item">Condiciones</li>
+            <li class="Footer-item">Política de privacidad</li>
+            <li class="Footer-item">Cookies</li>
+            <li class="Footer-item">Información sobre anuncios</li>
+            <li class="Footer-item">Marca</li>
+            <li class="Footer-item">Blog</li>
+            <li class="Footer-item">Estado</li>
+            <li class="Footer-item">Aplicaciones</li>
+            <li class="Footer-item">Empleos</li>
+            <li class="Footer-item">Marketing</li>
+            <li class="Footer-item">Empresas</li>
+            <li class="Footer-item">Desarrolladores</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="trends">
+        <div class="flex-module-footer u-table">
+          <span class="fa fa-external-link-square blue"></span>
+          <span class="blue">Publicitar en Twitter</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="js/app.js"></script>
+  <script src="js/moment.js"></script>
+
+</body>
+</html>
