@@ -1,7 +1,6 @@
 # **Twitter**
 
 ***
-## Maquetando Lyft
 ## **Estructura de archivos
 1. Una carpeta `assets`    
      + Que contiene la carpeta `img`.
